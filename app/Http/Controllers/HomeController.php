@@ -2,27 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Test\AuthUserTest;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    protected $user ;
+
+    public function __construct(AuthUserTest $authUserTest)
     {
         $this->middleware('auth');
+        $this->user = $authUserTest;
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
+//        dump($this->user->getAuth());
         return view('home');
     }
 }
