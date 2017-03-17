@@ -1,0 +1,349 @@
+[17-Mar-2017 03:39:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on integer in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php:108
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 {main}
+  thrown in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php on line 108
+[17-Mar-2017 03:39:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on integer in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php:108
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 {main}
+  thrown in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php on line 108
+[17-Mar-2017 03:39:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on integer in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php:108
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 {main}
+  thrown in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php on line 108
+[17-Mar-2017 03:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on integer in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php:108
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 {main}
+  thrown in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php on line 108
+[17-Mar-2017 03:39:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on integer in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php:108
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\Debug\Exception\FatalThrowableError))
+#2 {main}
+  thrown in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php on line 108
+[17-Mar-2017 03:41:39 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:40 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:40 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:40 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:40 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:41 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:41 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:41:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(47): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:48:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(73): abort(404)
+#2 D:\htdocs\lara5\app\Exceptions\Handler.php(49): App\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpExcept in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:48:11 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(73): abort(404)
+#2 D:\htdocs\lara5\app\Exceptions\Handler.php(49): App\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpExcept in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:52:09 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(49): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:52:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(49): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:52:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(49): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:52:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(49): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:52:11 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(49): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 03:52:11 UTC] PHP Fatal error:  Uncaught Symfony\Component\HttpKernel\Exception\NotFoundHttpException in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:897
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(31): Illuminate\Foundation\Application->abort(404, '', Array)
+#1 D:\htdocs\lara5\app\Exceptions\Handler.php(49): abort(404)
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(108): App\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\HandleExceptions.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException))
+#4 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Symfony\Component\HttpKernel\Exception\NotFoundHttpException)) in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php on line 897
+[17-Mar-2017 04:28:34 UTC] PHP Warning:  Uncaught ErrorException: require(D:\htdocs\lara5\app\Api/V2/api.php): failed to open stream: No such file or directory in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:314
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(D:\\htdo...', 'D:\\htdocs\\lara5...', 314, Array)
+#1 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): require()
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(270): Illuminate\Routing\Router->loadRoutes('D:\\htdocs\\lara5...')
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, 'D:\\htdocs\\lara5...')
+#4 D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php(32): Illuminate\Routing\RouteRegistrar->group('D:\\htdocs\\lara5...')
+#5 D:\htdocs\lara5\app\Providers\RouteServiceProvider.php(38): App\Provider in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[17-Mar-2017 04:28:34 UTC] PHP Stack trace:
+[17-Mar-2017 04:28:34 UTC] PHP   1. {main}() D:\htdocs\lara5\public\index.php:0
+[17-Mar-2017 04:28:34 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() D:\htdocs\lara5\public\index.php:53
+[17-Mar-2017 04:28:34 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:116
+[17-Mar-2017 04:28:34 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:144
+[17-Mar-2017 04:28:34 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:160
+[17-Mar-2017 04:28:34 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:208
+[17-Mar-2017 04:28:34 UTC] PHP   7. Illuminate\Foundation\Application->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php:17
+[17-Mar-2017 04:28:34 UTC] PHP   8. array_walk() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 04:28:34 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 04:28:34 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+[17-Mar-2017 04:28:34 UTC] PHP  11. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:762
+[17-Mar-2017 04:28:34 UTC] PHP  12. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 04:28:34 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 04:28:34 UTC] PHP  14. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 04:28:34 UTC] PHP  15. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  16. App\Providers\ApiRouteServiceProvider->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  17. App\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:18
+[17-Mar-2017 04:28:34 UTC] PHP  18. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:28
+[17-Mar-2017 04:28:34 UTC] PHP  19. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:30
+[17-Mar-2017 04:28:34 UTC] PHP  20. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:70
+[17-Mar-2017 04:28:34 UTC] PHP  21. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 04:28:34 UTC] PHP  22. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 04:28:34 UTC] PHP  23. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 04:28:34 UTC] PHP  24. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  25. App\Providers\RouteServiceProvider->map() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  26. App\Providers\ApiRouteServiceProvider->mapApiRoutes() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:38
+[17-Mar-2017 04:28:34 UTC] PHP  27. Illuminate\Routing\RouteRegistrar->group() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:32
+[17-Mar-2017 04:28:34 UTC] PHP  28. Illuminate\Routing\Router->group() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:104
+[17-Mar-2017 04:28:34 UTC] PHP  29. Illuminate\Routing\Router->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:270
+[17-Mar-2017 04:28:34 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required 'D:\htdocs\lara5\app\Api/V2/api.php' (include_path='.;C:\php\pear') in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[17-Mar-2017 04:28:34 UTC] PHP Stack trace:
+[17-Mar-2017 04:28:34 UTC] PHP   1. {main}() D:\htdocs\lara5\public\index.php:0
+[17-Mar-2017 04:28:34 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() D:\htdocs\lara5\public\index.php:53
+[17-Mar-2017 04:28:34 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:116
+[17-Mar-2017 04:28:34 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:144
+[17-Mar-2017 04:28:34 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:160
+[17-Mar-2017 04:28:34 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:208
+[17-Mar-2017 04:28:34 UTC] PHP   7. Illuminate\Foundation\Application->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php:17
+[17-Mar-2017 04:28:34 UTC] PHP   8. array_walk() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 04:28:34 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 04:28:34 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+[17-Mar-2017 04:28:34 UTC] PHP  11. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:762
+[17-Mar-2017 04:28:34 UTC] PHP  12. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 04:28:34 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 04:28:34 UTC] PHP  14. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 04:28:34 UTC] PHP  15. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  16. App\Providers\ApiRouteServiceProvider->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  17. App\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:18
+[17-Mar-2017 04:28:34 UTC] PHP  18. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:28
+[17-Mar-2017 04:28:34 UTC] PHP  19. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:30
+[17-Mar-2017 04:28:34 UTC] PHP  20. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:70
+[17-Mar-2017 04:28:34 UTC] PHP  21. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 04:28:34 UTC] PHP  22. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 04:28:34 UTC] PHP  23. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 04:28:34 UTC] PHP  24. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  25. App\Providers\RouteServiceProvider->map() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 04:28:34 UTC] PHP  26. App\Providers\ApiRouteServiceProvider->mapApiRoutes() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:38
+[17-Mar-2017 04:28:34 UTC] PHP  27. Illuminate\Routing\RouteRegistrar->group() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:32
+[17-Mar-2017 04:28:34 UTC] PHP  28. Illuminate\Routing\Router->group() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:104
+[17-Mar-2017 04:28:34 UTC] PHP  29. Illuminate\Routing\Router->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:270
+[17-Mar-2017 06:33:04 UTC] PHP Warning:  Uncaught ErrorException: require(D:\htdocs\lara5\Api/V1/api.php): failed to open stream: No such file or directory in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:314
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(D:\\htdo...', 'D:\\htdocs\\lara5...', 314, Array)
+#1 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): require()
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(270): Illuminate\Routing\Router->loadRoutes('D:\\htdocs\\lara5...')
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, 'D:\\htdocs\\lara5...')
+#4 D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php(28): Illuminate\Routing\RouteRegistrar->group('D:\\htdocs\\lara5...')
+#5 D:\htdocs\lara5\app\Providers\RouteServiceProvider.php(38): App\Providers\Ap in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[17-Mar-2017 06:33:04 UTC] PHP Stack trace:
+[17-Mar-2017 06:33:04 UTC] PHP   1. {main}() D:\htdocs\lara5\public\index.php:0
+[17-Mar-2017 06:33:04 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() D:\htdocs\lara5\public\index.php:53
+[17-Mar-2017 06:33:04 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:116
+[17-Mar-2017 06:33:04 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:144
+[17-Mar-2017 06:33:04 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:160
+[17-Mar-2017 06:33:04 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:208
+[17-Mar-2017 06:33:04 UTC] PHP   7. Illuminate\Foundation\Application->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php:17
+[17-Mar-2017 06:33:04 UTC] PHP   8. array_walk() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:04 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:04 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+[17-Mar-2017 06:33:04 UTC] PHP  11. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:762
+[17-Mar-2017 06:33:04 UTC] PHP  12. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:04 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:04 UTC] PHP  14. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:04 UTC] PHP  15. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  16. App\Providers\ApiRouteServiceProvider->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  17. App\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:18
+[17-Mar-2017 06:33:04 UTC] PHP  18. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:28
+[17-Mar-2017 06:33:04 UTC] PHP  19. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:30
+[17-Mar-2017 06:33:04 UTC] PHP  20. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:70
+[17-Mar-2017 06:33:04 UTC] PHP  21. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:04 UTC] PHP  22. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:04 UTC] PHP  23. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:04 UTC] PHP  24. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  25. App\Providers\RouteServiceProvider->map() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  26. App\Providers\ApiRouteServiceProvider->mapApiRoutes() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:38
+[17-Mar-2017 06:33:04 UTC] PHP  27. Illuminate\Routing\RouteRegistrar->group() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:28
+[17-Mar-2017 06:33:04 UTC] PHP  28. Illuminate\Routing\Router->group() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:104
+[17-Mar-2017 06:33:04 UTC] PHP  29. Illuminate\Routing\Router->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:270
+[17-Mar-2017 06:33:04 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required 'D:\htdocs\lara5\Api/V1/api.php' (include_path='.;C:\php\pear') in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[17-Mar-2017 06:33:04 UTC] PHP Stack trace:
+[17-Mar-2017 06:33:04 UTC] PHP   1. {main}() D:\htdocs\lara5\public\index.php:0
+[17-Mar-2017 06:33:04 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() D:\htdocs\lara5\public\index.php:53
+[17-Mar-2017 06:33:04 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:116
+[17-Mar-2017 06:33:04 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:144
+[17-Mar-2017 06:33:04 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:160
+[17-Mar-2017 06:33:04 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:208
+[17-Mar-2017 06:33:04 UTC] PHP   7. Illuminate\Foundation\Application->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php:17
+[17-Mar-2017 06:33:04 UTC] PHP   8. array_walk() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:04 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:04 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+[17-Mar-2017 06:33:04 UTC] PHP  11. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:762
+[17-Mar-2017 06:33:04 UTC] PHP  12. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:04 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:04 UTC] PHP  14. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:04 UTC] PHP  15. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  16. App\Providers\ApiRouteServiceProvider->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  17. App\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:18
+[17-Mar-2017 06:33:04 UTC] PHP  18. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:28
+[17-Mar-2017 06:33:04 UTC] PHP  19. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:30
+[17-Mar-2017 06:33:04 UTC] PHP  20. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:70
+[17-Mar-2017 06:33:04 UTC] PHP  21. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:04 UTC] PHP  22. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:04 UTC] PHP  23. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:04 UTC] PHP  24. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  25. App\Providers\RouteServiceProvider->map() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:04 UTC] PHP  26. App\Providers\ApiRouteServiceProvider->mapApiRoutes() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:38
+[17-Mar-2017 06:33:04 UTC] PHP  27. Illuminate\Routing\RouteRegistrar->group() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:28
+[17-Mar-2017 06:33:04 UTC] PHP  28. Illuminate\Routing\Router->group() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:104
+[17-Mar-2017 06:33:04 UTC] PHP  29. Illuminate\Routing\Router->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:270
+[17-Mar-2017 06:33:23 UTC] PHP Warning:  Uncaught ErrorException: require(D:\htdocs\lara5\Api/V1/api.php): failed to open stream: No such file or directory in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:314
+Stack trace:
+#0 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(D:\\htdo...', 'D:\\htdocs\\lara5...', 314, Array)
+#1 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(314): require()
+#2 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php(270): Illuminate\Routing\Router->loadRoutes('D:\\htdocs\\lara5...')
+#3 D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, 'D:\\htdocs\\lara5...')
+#4 D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php(28): Illuminate\Routing\RouteRegistrar->group('D:\\htdocs\\lara5...')
+#5 D:\htdocs\lara5\app\Providers\RouteServiceProvider.php(38): App\Providers\Ap in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[17-Mar-2017 06:33:23 UTC] PHP Stack trace:
+[17-Mar-2017 06:33:23 UTC] PHP   1. {main}() D:\htdocs\lara5\public\index.php:0
+[17-Mar-2017 06:33:23 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() D:\htdocs\lara5\public\index.php:53
+[17-Mar-2017 06:33:23 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:116
+[17-Mar-2017 06:33:23 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:144
+[17-Mar-2017 06:33:23 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:160
+[17-Mar-2017 06:33:23 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:208
+[17-Mar-2017 06:33:23 UTC] PHP   7. Illuminate\Foundation\Application->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php:17
+[17-Mar-2017 06:33:23 UTC] PHP   8. array_walk() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:23 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:23 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+[17-Mar-2017 06:33:23 UTC] PHP  11. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:762
+[17-Mar-2017 06:33:23 UTC] PHP  12. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:23 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:23 UTC] PHP  14. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:23 UTC] PHP  15. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  16. App\Providers\ApiRouteServiceProvider->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  17. App\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:18
+[17-Mar-2017 06:33:23 UTC] PHP  18. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:28
+[17-Mar-2017 06:33:23 UTC] PHP  19. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:30
+[17-Mar-2017 06:33:23 UTC] PHP  20. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:70
+[17-Mar-2017 06:33:23 UTC] PHP  21. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:23 UTC] PHP  22. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:23 UTC] PHP  23. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:23 UTC] PHP  24. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  25. App\Providers\RouteServiceProvider->map() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  26. App\Providers\ApiRouteServiceProvider->mapApiRoutes() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:38
+[17-Mar-2017 06:33:23 UTC] PHP  27. Illuminate\Routing\RouteRegistrar->group() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:28
+[17-Mar-2017 06:33:23 UTC] PHP  28. Illuminate\Routing\Router->group() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:104
+[17-Mar-2017 06:33:23 UTC] PHP  29. Illuminate\Routing\Router->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:270
+[17-Mar-2017 06:33:23 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required 'D:\htdocs\lara5\Api/V1/api.php' (include_path='.;C:\php\pear') in D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php on line 314
+[17-Mar-2017 06:33:23 UTC] PHP Stack trace:
+[17-Mar-2017 06:33:23 UTC] PHP   1. {main}() D:\htdocs\lara5\public\index.php:0
+[17-Mar-2017 06:33:23 UTC] PHP   2. Illuminate\Foundation\Http\Kernel->handle() D:\htdocs\lara5\public\index.php:53
+[17-Mar-2017 06:33:23 UTC] PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:116
+[17-Mar-2017 06:33:23 UTC] PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:144
+[17-Mar-2017 06:33:23 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php:160
+[17-Mar-2017 06:33:23 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:208
+[17-Mar-2017 06:33:23 UTC] PHP   7. Illuminate\Foundation\Application->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Bootstrap\BootProviders.php:17
+[17-Mar-2017 06:33:23 UTC] PHP   8. array_walk() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:23 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:746
+[17-Mar-2017 06:33:23 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+[17-Mar-2017 06:33:23 UTC] PHP  11. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:762
+[17-Mar-2017 06:33:23 UTC] PHP  12. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:23 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:23 UTC] PHP  14. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:23 UTC] PHP  15. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  16. App\Providers\ApiRouteServiceProvider->boot() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  17. App\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:18
+[17-Mar-2017 06:33:23 UTC] PHP  18. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:28
+[17-Mar-2017 06:33:23 UTC] PHP  19. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:30
+[17-Mar-2017 06:33:23 UTC] PHP  20. Illuminate\Container\Container->call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Foundation\Support\Providers\RouteServiceProvider.php:70
+[17-Mar-2017 06:33:23 UTC] PHP  21. Illuminate\Container\BoundMethod::call() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\Container.php:524
+[17-Mar-2017 06:33:23 UTC] PHP  22. Illuminate\Container\BoundMethod::callBoundMethod() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:31
+[17-Mar-2017 06:33:23 UTC] PHP  23. Illuminate\Container\BoundMethod::Illuminate\Container\{closure}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:87
+[17-Mar-2017 06:33:23 UTC] PHP  24. call_user_func_array:{D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29}() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  25. App\Providers\RouteServiceProvider->map() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:29
+[17-Mar-2017 06:33:23 UTC] PHP  26. App\Providers\ApiRouteServiceProvider->mapApiRoutes() D:\htdocs\lara5\app\Providers\RouteServiceProvider.php:38
+[17-Mar-2017 06:33:23 UTC] PHP  27. Illuminate\Routing\RouteRegistrar->group() D:\htdocs\lara5\app\Providers\ApiRouteServiceProvider.php:28
+[17-Mar-2017 06:33:23 UTC] PHP  28. Illuminate\Routing\Router->group() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\RouteRegistrar.php:104
+[17-Mar-2017 06:33:23 UTC] PHP  29. Illuminate\Routing\Router->loadRoutes() D:\htdocs\lara5\vendor\laravel\framework\src\Illuminate\Routing\Router.php:270
