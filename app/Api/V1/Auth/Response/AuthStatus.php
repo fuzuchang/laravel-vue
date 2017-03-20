@@ -9,5 +9,30 @@ namespace App\Api\V1\Auth\Response;
  */
 class AuthStatus
 {
-    const UNAUTHENTICATED = '401';
+    const SUCCESS           = 0;
+    const UNAUTHENTICATED   = 40001;
+    const INVALID_PARAM     = 40002;
+
+
+    public static function statusDesc()
+    {
+        return [
+            static::SUCCESS         => '请求成功',
+            static::UNAUTHENTICATED => '未认证',
+            static::INVALID_PARAM   => '无效参数',
+        ];
+    }
+
+
+    public static function getStatusDesc($status)
+    {
+        $statusDesc =  static::statusDesc();
+
+        if ( isset( $statusDesc[ $status ] ) ){
+            return $statusDesc[ $status ];
+        }
+
+        return null;
+
+    }
 }

@@ -13,6 +13,10 @@ trait ResponseJson
 
     protected $status = '200';
 
+    protected $error = '';
+
+
+
     public function json(array $data)
     {
         $this->json = $data;
@@ -26,8 +30,23 @@ trait ResponseJson
         return $this;
     }
 
+
+    public function msg(string $msg)
+    {
+        $this->error = $msg;
+
+        return $this;
+    }
+
+
     public function ok()
     {
-        return response()->json($this->json,$this->status);
+
+        $data = [];
+        $data ['status_code']   = $this->status;
+        $data ['error']         = $this->error;
+        $data ['data']          = $this->json;
+
+        return response()->json($data);
     }
 }

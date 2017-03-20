@@ -9,6 +9,7 @@
 
 namespace App\Api\V1\Auth\Controllers;
 
+use App\Api\V1\Auth\Response\AuthStatus;
 use App\Api\V1\BaseController as Controller;
 use App\Models\UserModels;
 use Illuminate\Http\Request;
@@ -20,24 +21,45 @@ class RegisterController extends Controller
 
     public function register(Request $request)
     {
+
+        $validator = $this->validator($request->all());
+
+        if ($validator->fails()){
+
+            return $this->json([ $validator->errors()])
+                ->msg(AuthStatus::getStatusDesc(AuthStatus::INVALID_PARAM))
+                ->status(AuthStatus::INVALID_PARAM)
+                ->ok();
+        }
+
         $data = [];
         $data['name'] = $request->input('name');
         $data['email'] = $request->input('email');
+        $data['mobile'] = $request->input('mobile');
         $data['password'] = bcrypt($request->input('password'));
         $user = UserModels::create($data);
         $token = JWTAuth::fromUser($user);
-        return $token;
+
+        return $this->json([
+                'user' => $user->toArray(),
+                'token' => $token
+            ])
+            ->msg(AuthStatus::getStatusDesc(AuthStatus::SUCCESS))
+            ->status(AuthStatus::SUCCESS)
+            ->ok();
     }
+
 
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'max:255',
+            'name' => 'max:255|unique:users',
             'email' => 'email|max:255|unique:users',
             'mobile' => 'required|digits:11|unique:users',
             'password' => 'required|min:6',
         ],[
             'name.max' => "用户名最多255字符",
+            'name.unique' => "用户名已存在",
             'email.email' => "邮箱格式不正确",
             'email.max' => "邮箱最多255字符",
             'email.unique' => "邮箱已存在",
