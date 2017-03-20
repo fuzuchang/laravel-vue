@@ -9,7 +9,7 @@
 
                     <div class="panel-body">
 
-                        <table class="table table-bordered">
+                        <table class="table table-bordered table-hover">
                             <tr>
                                 <th>请求方法</th>
                                 <th>请求URI</th>
