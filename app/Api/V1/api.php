@@ -11,8 +11,6 @@ $api = app('Dingo\Api\Routing\Router');
 
 $api->version('v1', function ($api) {
 
-
-
     $api->group(['namespace' => 'App\Api\V1\Auth\Controllers'], function($api) {
         //用户认证
         $api->post('/login', ['uses'=>'LoginController@login']);
@@ -29,8 +27,6 @@ $api->version('v1', function ($api) {
         $api->group(['namespace' => 'App\Api\V1\User\Controllers'], function($api) {
             $api->get('/me', 'UserController@me'); //显示用户信息
         });
-
-
     });
 
 });
