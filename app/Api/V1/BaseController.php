@@ -2,6 +2,7 @@
 namespace App\Api\V1;
 use App\Commons\Response\ResponseJson;
 use App\Http\Controllers\Controller;
+use Dingo\Api\Routing\Helpers;
 
 /**
  * Created by PhpStorm.
@@ -12,7 +13,7 @@ use App\Http\Controllers\Controller;
  */
 class BaseController extends Controller
 {
-    use ResponseJson;
+    use ResponseJson ,Helpers;
 
     protected $guard = 'api';
 

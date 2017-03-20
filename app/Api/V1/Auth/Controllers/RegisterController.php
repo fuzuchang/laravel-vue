@@ -18,26 +18,23 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 
 class RegisterController extends Controller
 {
-
+    /**
+     * 注册
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function register(Request $request)
     {
-
         $validator = $this->validator($request->all());
-
         if ($validator->fails()){
-
             return $this->json([ $validator->errors()])
                 ->msg(AuthStatus::getStatusDesc(AuthStatus::INVALID_PARAM))
                 ->status(AuthStatus::INVALID_PARAM)
                 ->ok();
         }
-
-        $data = [];
-        $data['name'] = $request->input('name');
-        $data['email'] = $request->input('email');
-        $data['mobile'] = $request->input('mobile');
-        $data['password'] = bcrypt($request->input('password'));
-        $user = UserModels::create($data);
+        //创建用户
+        $user = $this->createUser($request);
+        //生成token
         $token = JWTAuth::fromUser($user);
 
         return $this->json([
@@ -49,7 +46,11 @@ class RegisterController extends Controller
             ->ok();
     }
 
-
+    /**
+     * 注册验证
+     * @param array $data
+     * @return mixed
+     */
     protected function validator(array $data)
     {
         return Validator::make($data, [
@@ -69,5 +70,21 @@ class RegisterController extends Controller
             'password.required' => "密码必填",
             'password.min' => "密码最少6字符"
         ]);
+    }
+
+    /**
+     * 创建用户
+     * @param Request $request
+     * @return mixed
+     */
+    protected function createUser(Request $request)
+    {
+        $data = [];
+        $data['name']       = $request->input('name');
+        $data['email']      = $request->input('email');
+        $data['mobile']     = $request->input('mobile');
+        $data['password']   = bcrypt($request->input('password'));
+
+        return UserModels::create($data);
     }
 }

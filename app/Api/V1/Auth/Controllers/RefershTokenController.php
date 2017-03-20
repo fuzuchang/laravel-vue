@@ -9,27 +9,30 @@
 
 namespace App\Api\V1\Auth\Controllers;
 
+
 use App\Api\V1\Auth\Response\AuthStatus;
 use App\Api\V1\BaseController as Controller;
 use Illuminate\Support\Facades\Auth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 
-class LogoutController extends Controller {
+class RefershTokenController extends Controller {
 
     /**
-     * 退出
+     * 刷新token
      * @return \Illuminate\Http\JsonResponse
      */
-    public function logout()
+    public function refershToken()
     {
         try{
-            Auth::guard($this->guard)->logout();
-        }catch (JWTException $e)
-        {
+            $token = Auth::guard($this->guard)->refresh();
+        }catch (JWTException $exception){
             return $this->status(AuthStatus::INVALID_TOKEN)
-                ->msg($e->getMessage())
+                ->msg($exception->getMessage())
                 ->ok();
         }
-        return $this->ok();
+
+        return $this->json([
+            'token' => $token
+        ])->ok();
     }
 }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2f37ff86cf4ee260585c407184141b2e",
-    "content-hash": "46f3498c64ac8259a469090a701f6f37",
+    "hash": "38f96aee61182f83a9f000810acb1915",
+    "content-hash": "c8d6ca5bdadeb26fb8c470908bd52d5a",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -3333,16 +3333,16 @@
         },
         {
             "name": "tymon/jwt-auth",
-            "version": "1.0.0-beta.2",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tymondesigns/jwt-auth.git",
-                "reference": "9265f94a404d3d60ca19326d1fa9f366746937a2"
+                "reference": "d0383b56549b3b4c291711e2c88c0bd937e90755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/tymondesigns/jwt-auth/9265f94a404d3d60ca19326d1fa9f366746937a2.zip",
-                "reference": "9265f94a404d3d60ca19326d1fa9f366746937a2",
+                "url": "https://files.phpcomposer.com/files/tymondesigns/jwt-auth/d0383b56549b3b4c291711e2c88c0bd937e90755.zip",
+                "reference": "d0383b56549b3b4c291711e2c88c0bd937e90755",
                 "shasum": ""
             },
             "require": {
@@ -3360,8 +3360,7 @@
                 "illuminate/database": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
                 "illuminate/routing": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
                 "mockery/mockery": "0.9.*",
-                "october/rain": "dev-develop",
-                "phpunit/phpunit": "^4.0 || ^5.0"
+                "phpunit/phpunit": "~4.8 || ~6.0"
             },
             "type": "library",
             "extra": {
@@ -3395,7 +3394,7 @@
                 "jwt",
                 "laravel"
             ],
-            "time": "2017-01-30 09:10:50"
+            "time": "2017-03-19 20:37:26"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -4829,7 +4828,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "dingo/api": 20,
-        "tymon/jwt-auth": 10
+        "tymon/jwt-auth": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

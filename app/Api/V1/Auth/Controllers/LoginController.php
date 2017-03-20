@@ -13,9 +13,10 @@ use App\Api\V1\Auth\Response\AuthStatus;
 use App\Api\V1\BaseController as Controller;
 use Illuminate\Http\Request;
 use Tymon\JWTAuth\Exceptions\JWTException;
-use Tymon\JWTAuth\Facades\JWTAuth;
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller {
+
 
     public function login(Request $request)
     {
@@ -23,21 +24,29 @@ class LoginController extends Controller {
 
         try{
 
-            $token = JWTAuth::attempt($credentials);
+            $token = Auth::guard($this->guard)->attempt($credentials);
 
             if (!$token){
-                $json = ['error' => 'invalid_credentials'];
-                return $this->json($json)->status(AuthStatus::UNAUTHENTICATED)->ok();
+                return $this->status(AuthStatus::INVALID_CREDENTIALS)
+                    ->msg(AuthStatus::getStatusDesc(AuthStatus::INVALID_CREDENTIALS))
+                    ->ok();
             }
 
         }catch (JWTException $e){
-            $json = [
-                'error' => 'could_not_create_token'
-            ];
-            return $this->json($json)->status(AuthStatus::UNAUTHENTICATED)->ok();
+            return $this->status(AuthStatus::COULD_NOT_CREATE_TOKEN)
+                ->msg(AuthStatus::getStatusDesc(AuthStatus::COULD_NOT_CREATE_TOKEN))
+                ->ok();
         }
 
-        return $this->json(compact($token))->status(AuthStatus::UNAUTHENTICATED)->ok();
+        $user =  Auth::guard($this->guard)->user();
+
+        return $this->json([
+            "token" => $token,
+            "user" => $user,
+        ])->status(AuthStatus::SUCCESS)
+            ->msg(AuthStatus::getStatusDesc(AuthStatus::SUCCESS))
+            ->ok();
 
     }
+
 }

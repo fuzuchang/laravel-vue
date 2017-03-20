@@ -9,15 +9,31 @@
 
 $api = app('Dingo\Api\Routing\Router');
 
-$api->version('v1',['namespace' => 'App\Api\V1\Auth\Controllers'], function ($api) {
+$api->version('v1', function ($api) {
 
-    //用户认证
-    $api->post('/authenticate', ['uses'=>'AuthenticateController@authenticate']);
-    $api->post('/login', ['uses'=>'LoginController@login']);
-    $api->post('/register', 'RegisterController@register');
+
+
+    $api->group(['namespace' => 'App\Api\V1\Auth\Controllers'], function($api) {
+        //用户认证
+        $api->post('/login', ['uses'=>'LoginController@login']);
+        //用户注册
+        $api->post('/register', 'RegisterController@register');
+        //刷新token
+        $api->post('/refersh-token', 'RefershTokenController@refershToken');
+    });
 
     $api->group(['middleware' => ['auth:api']], function($api) {
-        $api->post('/logout', 'LogoutController@logout');
+        $api->group(['namespace' => 'App\Api\V1\Auth\Controllers'], function($api) {
+            $api->post('/logout', 'LogoutController@logout'); //退出
+        });
+        $api->group(['namespace' => 'App\Api\V1\User\Controllers'], function($api) {
+            $api->get('/me', 'UserController@me'); //显示用户信息
+        });
+
+
     });
 
 });
+
+
+

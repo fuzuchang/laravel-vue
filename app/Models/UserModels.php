@@ -3,7 +3,6 @@ namespace App\Models;
 
 use App\User;
 use Tymon\JWTAuth\Contracts\JWTSubject as AuthenticatableUserContract;
-
 class UserModels extends User implements AuthenticatableUserContract
 {
     protected $table = 'users';

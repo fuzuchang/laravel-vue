@@ -11,9 +11,9 @@ trait ResponseJson
 {
     protected $json = [];
 
-    protected $status = '200';
+    protected $status = 0;
 
-    protected $error = '';
+    protected $error = '请求成功';
 
 
 
